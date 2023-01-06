@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym</title>
+    <style>
+        body {
+            background: url(img/backg.img);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            transition-duration: 0.3s;
+
+        }
+
+        li:hover {
+            color: black;
+            cursor: pointer;
+            text-decoration-line: underline;
+        }
+
+
+        button {
+            border: 2px solid black;
+            cursor: pointer;
+            padding: 0.5rem;
+
+        }
+
+        button:hover {
+            color: blue;
+            background-color: antiquewhite;
+        }
+
+        .container {
+            
+            padding-bottom: 3rem;
+            border: 2px solid white;
+            width: 400px;
+            border-radius: 0.5cm;
+            text-align: center;
+        }
+
+        .group input {
+            width: 300px;
+            text-align: center;
+            border-radius: 8px;
+            padding: 10px;
+
+        }
+
+        .group select {
+            width: 320px;
+            text-align: center;
+            border-radius: 8px;
+            padding: 10px;
+
+        }
+
+        h3 {
+            font-weight: bolder;
+            font-size: larger;
+            color: white;
+        }
+        .cont-form{
+            padding-left: 2rem;
+        }
+        .group button{
+            padding: 10px;
+            width: 300px;
+            color: white;
+            border: 2px solid white;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="img/Gym-High-Quality-PNG.png.crdownload" alt="" width="100">
+        <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Contact us</li>
+        </ul>
+        <div>
+            <button>Join us</button>
+            <button>Email us</button>
+
+
+        </div>
+    </nav>
+    <br><br><br><br>
+    <div class="cont-form">
+        <div class="container">
+            <form action="noaction.php">
+
+                <H3>Join the best gym of delhi Now</H3>
+
+                <div class="group" style="padding-bottom: 0.3rem;">
+                    <input type="text" name="Name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="group" style="padding-bottom: 0.3rem;">
+                    <input type="text" name="Name" id="name" placeholder="Enter your age">
+                </div>
+                <div class="group" style="padding-bottom: 0.3rem;">
+                    <input type="text" name="Name" id="name" placeholder="Enter your locality">
+                </div>
+                <div class="group" style="padding-bottom: 0.3rem;">
+                    <select name="" id="">
+                        <option value="">Gender</option>
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                    </select>
+                </div>
+                <div class="group">
+                    <Button type="submit">Submit Now</Button>
+                </div>
+        </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
